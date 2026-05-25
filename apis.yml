@@ -1,0 +1,126 @@
+aid: infleqtion
+name: Infleqtion
+description: >-
+  Infleqtion is a Louisville/Boulder, Colorado quantum-technology company —
+  formerly ColdQuanta — that builds neutral-atom quantum computers, precision
+  atomic clocks, and quantum sensors for governments, corporations, and
+  research institutions. Its computing portfolio spans Sqale (a full-stack,
+  fault-tolerant neutral-atom quantum computer), Quantum Cores (ready-to-use
+  neutral-atom systems for laboratories), and Superstaq, an open-source
+  quantum software platform with proprietary cross-layer optimization that
+  compiles Qiskit, Cirq, and OpenQASM circuits down to hardware-native
+  operations and routes them across heterogeneous quantum backends.
+  Infleqtion's sensing portfolio includes the Tiqker optical atomic clock,
+  Quantum Spectrum (Rydberg atomic spectrum sensing), and inertial sensors
+  for GPS-denied positioning. The company was founded in 2007 as ColdQuanta,
+  rebranded to Infleqtion in November 2022 after absorbing the Super.tech
+  quantum-software acquisition, and became Infleqtion, Inc. (NASDAQ: INFQ)
+  in January 2026. Superstaq (qiskit-superstaq, cirq-superstaq,
+  general-superstaq) is the only developer-facing public surface; the
+  hardware and sensing businesses are sold via direct engagement and
+  government contracts rather than a self-serve API.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Quantum Computing
+  - Quantum Software
+  - Neutral Atom
+  - Atomic Clocks
+  - Quantum Sensing
+  - Superstaq
+  - Sqale
+  - Tiqker
+  - Rydberg
+  - Inertial Sensing
+  - Hardware
+  - Research
+url: https://raw.githubusercontent.com/api-evangelist/infleqtion/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis:
+  - aid: infleqtion:superstaq
+    name: Superstaq
+    description: >-
+      Superstaq is Infleqtion's open-source quantum software platform.
+      Developers write circuits in Qiskit, Cirq, or OpenQASM, and Superstaq
+      applies cross-layer compilation, dynamical-decoupling error mitigation,
+      and hardware-native gate decomposition to deliver up to ~10x performance
+      on benchmarks. Distributed as three pip packages — qiskit-superstaq,
+      cirq-superstaq, and general-superstaq — backed by a hosted execution
+      service that routes jobs across heterogeneous quantum backends. Apache
+      2.0 licensed client; the underlying REST service requires an Infleqtion
+      API key obtained via request.
+    humanURL: https://superstaq.readthedocs.io/en/latest/
+    tags:
+      - Quantum Computing
+      - Quantum Software
+      - Compilation
+      - Error Mitigation
+    properties:
+      - type: Documentation
+        url: https://superstaq.readthedocs.io/en/latest/
+      - type: GettingStarted
+        url: https://superstaq.readthedocs.io/en/latest/get_started/installation.html
+      - type: SourceCode
+        url: https://github.com/Infleqtion/client-superstaq
+      - type: SDK
+        url: https://pypi.org/project/qiskit-superstaq/
+      - type: SDK
+        url: https://pypi.org/project/cirq-superstaq/
+      - type: SDK
+        url: https://pypi.org/project/general-superstaq/
+      - type: WhitePaper
+        url: https://arxiv.org/abs/2309.05157
+      - type: Forum
+        url: https://join.slack.com/t/superstaq/shared_invite/zt-1wr6eok5j-fMwB7dPEWGG~5S474xGhxw
+      - type: Support
+        url: mailto:superstaq@infleqtion.com
+common:
+  - type: Website
+    url: https://www.infleqtion.com
+  - type: About
+    url: https://infleqtion.com/about/
+  - type: QuantumSoftware
+    url: https://infleqtion.com/quantum-software/
+  - type: Product
+    url: https://infleqtion.com/quantum-computing/
+  - type: Product
+    url: https://infleqtion.com/quantum-cores/
+  - type: Product
+    url: https://infleqtion.com/tiqker/
+  - type: Product
+    url: https://infleqtion.com/quantum-spectrum/
+  - type: Product
+    url: https://infleqtion.com/inertial-sensing/
+  - type: Product
+    url: https://infleqtion.com/contextual-machine-learning/
+  - type: Documentation
+    url: https://superstaq.readthedocs.io/en/latest/
+  - type: GitHubOrganization
+    url: https://github.com/Infleqtion
+  - type: Research
+    url: https://infleqtion.com/research/
+  - type: DocumentLibrary
+    url: https://infleqtion.com/document-library/
+  - type: Newsroom
+    url: https://infleqtion.com/newsroom/
+  - type: Blog
+    url: https://infleqtion.com/blog/
+  - type: Careers
+    url: https://infleqtion.com/careers/
+  - type: Contact
+    url: https://infleqtion.com/contact/
+  - type: Investors
+    url: https://finance.yahoo.com/quote/INFQ/
+  - type: Twitter
+    url: https://x.com/infleqtion
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/infq/
+  - type: YouTube
+    url: https://www.youtube.com/coldquanta
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
