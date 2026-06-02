@@ -1,0 +1,14 @@
+{
+  "repo": "infleqtion",
+  "feeds": [
+    {
+      "source": "https://infleqtion.com/newsroom/",
+      "feed_url": "https://infleqtion.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-06-01T23:35:02Z"
+}
