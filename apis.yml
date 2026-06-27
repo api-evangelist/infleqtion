@@ -66,15 +66,15 @@ apis:
         url: https://superstaq.readthedocs.io/en/latest/get_started/installation.html
       - type: SourceCode
         url: https://github.com/Infleqtion/client-superstaq
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/qiskit-superstaq/
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/cirq-superstaq/
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/general-superstaq/
       - type: WhitePaper
         url: https://arxiv.org/abs/2309.05157
-      - type: Forum
+      - type: Forums
         url: https://join.slack.com/t/superstaq/shared_invite/zt-1wr6eok5j-fMwB7dPEWGG~5S474xGhxw
       - type: Support
         url: mailto:superstaq@infleqtion.com
