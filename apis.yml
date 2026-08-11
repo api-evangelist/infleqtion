@@ -90,6 +90,13 @@ apis:
       - type: Support
         url: mailto:superstaq@infleqtion.com
 common:
+  - type: IssueTracker
+    url: https://github.com/Infleqtion/client-superstaq/issues
+  - type: Releases
+    url: https://github.com/Infleqtion/client-superstaq/releases
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/Infleqtion/client-superstaq/blob/main/LICENSE
   - type: DomainSecurity
     url: security/infleqtion-domain-security.yml
   - type: Website
