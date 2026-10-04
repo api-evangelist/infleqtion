@@ -46,6 +46,9 @@ accessModel:
 position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infleqtion.png
+x-docs-platform: sphinx
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - Quantum Computing
   - Quantum Software
